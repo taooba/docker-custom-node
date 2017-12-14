@@ -1,9 +1,9 @@
 FROM node:8-alpine
 
-RUN npm install pm2 -g && \
-pm2 install pm2-logrotate 
-
 COPY Shanghai /etc/localtime
+
+RUN npm install pm2 -g \
+&& pm2 install pm2-logrotate 
 
 VOLUME ["/workspace"]
 
