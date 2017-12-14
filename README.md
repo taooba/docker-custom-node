@@ -1,6 +1,18 @@
-# docker-pm2-node
+# 简介
 
-在 `docker-pm2` 官方镜像的基础上加入了日志分割模块 (pm2-logrotate) 。
+平时自己使用的自定义 NODE 镜像
+
+
+
+# pm2-logrotate
+
+使用 `node:8-alpine` 为基础镜像，在此基础上添加了 `pm2` 以及 `pm2` 的模块 `pm2-logrotate` 来做日志分割
+
+
+
+# pm2-logrotate-ffmpeg
+
+使用 `taooba/custom-node:pm2-logrotate` 作为基础镜像，在此基础上添加了 `ffmpeg`
 
 
 
