@@ -16,6 +16,12 @@
 
 
 
+# pm2-logrotate-ffmpeg-imagemagick
+
+使用 `taooba/custom-node:pm2-logrotate` 作为基础镜像，在此基础上添加了 `ffmpeg` `imagemagick`
+
+
+
 # 相关内容
 
 * [docker-pm2](https://github.com/keymetrics/docker-pm2)
